@@ -1,0 +1,32 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "rest api fullstack example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dima92/rest-api.git"
+  },
+  "keywords": [
+    "js",
+    "rest",
+    "api"
+  ],
+  "author": "Dmitry Tkachenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dima92/rest-api/issues"
+  },
+  "homepage": "https://github.com/dima92/rest-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
